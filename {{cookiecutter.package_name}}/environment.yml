@@ -1,0 +1,4 @@
+name: {{ cookiecutter.env_name }}
+channels:
+  - defaults
+prefix: /anaconda3/envs/{{ cookiecutter.env_name }}
